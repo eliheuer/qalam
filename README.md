@@ -1,5 +1,9 @@
-# Qalam
-A simple UFO font editor in Rust+GTK. (work in progress)
+<h1 align="center">
+  <a href="https://github.com/eliheuer/qalam"><img src="img/qalam-icon-4x.gif" alt="Qalam" width="128" height="128"/></a><br>
+  <a href="https://github.com/google/xi-editor">قلم</a>
+</h1>
+
+<h4 align="center">A simple UFO font editor in Rust+GTK(Glade). (work in progress)</h4>
 
 ## Running
 First install [Rust](https://www.rust-lang.org/), then open a terminal, clone the project and enter `cargo run` in the root directory. On a Unix system that would look something like this:
