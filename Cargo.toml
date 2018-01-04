@@ -4,19 +4,8 @@ version = "0.0.1"
 authors = ["The Qalam Project Developers"]
 
 [dependencies]
-chrono = "0.4"
-glib = "^0"
-gio = "^0"
-gdk = "^0"
-gdk-pixbuf = "^0"
-gtk = "^0"
-pango = "^0"
-cairo-rs = { version = "^0", features = ["png"] }
+gtk = { git = "https://github.com/gtk-rs/gtk.git", features = ["v3_16"] }
+gdk = { git = "https://github.com/gtk-rs/gdk.git" }
 
 [features]
 #default = ["gtk_3_22"]
-gtk_3_10 = ["gtk/v3_10"]
-gtk_3_16 = ["gtk_3_10", "gtk/v3_16"]
-gtk_3_18 = ["gtk_3_16", "gtk/v3_18"] #for CI tools
-gtk_3_20 = ["gtk_3_18", "gtk/v3_20"] #for CI tools
-gtk_3_22 = ["gtk_3_20", "gtk/v3_22"] #for CI tools
