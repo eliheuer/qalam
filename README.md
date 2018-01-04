@@ -1,18 +1,28 @@
 <h1 align="center">
   <a href="https://github.com/eliheuer/qalam"><img src="img/qalam-icon-4x.gif" alt="Qalam" width="128" height="128"/></a><br>
-  <a href="https://github.com/google/xi-editor">قلم</a>
+  <a href="https://github.com/eliheuer/qalam">قلم</a>
 </h1>
 
 <h4 align="center">A simple UFO font editor in Rust+GTK(Glade). (work in progress)</h4>
 
-## Running
-First install [Rust](https://www.rust-lang.org/), then open a terminal, clone the project and enter `cargo run` in the root directory. On a Unix system that would look something like this:
+## Introduction
+Qalam is work in progress and it not usable at this point. I'm new to Rust so please feel free to make pull requests or leave suggestions in the issues. The aim of this Project is to make a simple [UFO](https://github.com/unified-font-object) font editor and to port some of the UFO tools from the Python ecosystem to Rust.
+
+
+## Build Instructions
+To use this software, first install [Rust](https://www.rust-lang.org/), then open a terminal, clone the project and enter `cargo run` in the root directory. On a Unix system that would look something like this:
 
 ```
 $ git clone https://github.com/eliheuer/qalam.git
 $ cd qalam
 $ cargo run
 ```
+
+## TODO
+* A list of things that need work:
+    - Build basic GUI with Glade.
+    - Make pixel art icons for tools.
+    - Make GUI wireframes.
 
 ## License
 
